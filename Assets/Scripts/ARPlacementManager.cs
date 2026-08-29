@@ -50,6 +50,9 @@ public class ARPlacementManager : MonoBehaviour
             placementIndicator.transform.position = hitPose.position;
             placementIndicator.transform.rotation = hitPose.rotation;
 
+            Quaternion quizRotation = Quaternion.Euler(0f, 0f, 0f);
+            Vector3 quizPosition = hitPose.position + Vector3.up * 0.05f;
+
             Instantiate(
                 arQuizPrefab,
                 hitPose.position,

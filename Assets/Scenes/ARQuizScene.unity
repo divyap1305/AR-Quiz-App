@@ -206,8 +206,8 @@ Canvas:
   m_GameObject: {fileID: 24109965}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 878521106}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -940,6 +940,10 @@ PrefabInstance:
     - target: {fileID: 777967583178352378, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
       propertyPath: m_Name
       value: ARQuiz
+      objectReference: {fileID: 0}
+    - target: {fileID: 777967583178352378, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1877021508198809633, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
       propertyPath: m_Pivot.x
