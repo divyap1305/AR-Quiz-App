@@ -7,14 +7,28 @@ using UnityEngine.UI;
 [System.Serializable]
 public class QuestionData
 {
-    public string question;
-    public string optionA;
-    public string optionB;
-    public string optionC;
-    public string optionD;
+    [Header("English")]
+    public string questionEnglish;
+    public string optionAEnglish;
+    public string optionBEnglish;
+    public string optionCEnglish;
+    public string optionDEnglish;
+
+    [Header("Tamil")]
+    public string questionTamil;
+    public string optionATamil;
+    public string optionBTamil;
+    public string optionCTamil;
+    public string optionDTamil;
 
     // 0 = A, 1 = B, 2 = C, 3 = D
     public int correctAnswer;
+}
+
+public enum QuizLanguage
+{
+    English,
+    Tamil
 }
 
 public class QuizManager : MonoBehaviour
@@ -44,12 +58,17 @@ public class QuizManager : MonoBehaviour
     public Button optionCButton;
     public Button optionDButton;
 
+    [Header("Language")]
+    public TMP_Dropdown languageDropdown;
+
     [Header("Questions")]
     public List<QuestionData> questions = new List<QuestionData>();
 
     private int currentQuestionIndex = 0;
     private int score = 0;
     private bool answerSelected = false;
+
+    private QuizLanguage currentLanguage = QuizLanguage.English;
 
     void Start()
     {
@@ -62,6 +81,11 @@ public class QuizManager : MonoBehaviour
         optionDButton.onClick.AddListener(() => SelectAnswer(3));
 
         playAgainButton.onClick.AddListener(RestartQuiz);
+
+        if (languageDropdown != null)
+        {
+            languageDropdown.onValueChanged.AddListener(ChangeLanguage);
+        }
 
         LoadQuestion();
     }
@@ -80,22 +104,46 @@ public class QuizManager : MonoBehaviour
 
         QuestionData currentQuestion = questions[currentQuestionIndex];
 
-        questionText.text = currentQuestion.question;
+        if (currentLanguage == QuizLanguage.English)
+        {
+            questionText.text = currentQuestion.questionEnglish;
 
-        optionAText.text = currentQuestion.optionA;
-        optionBText.text = currentQuestion.optionB;
-        optionCText.text = currentQuestion.optionC;
-        optionDText.text = currentQuestion.optionD;
+            optionAText.text = currentQuestion.optionAEnglish;
+            optionBText.text = currentQuestion.optionBEnglish;
+            optionCText.text = currentQuestion.optionCEnglish;
+            optionDText.text = currentQuestion.optionDEnglish;
+        }
+        else
+        {
+            questionText.text = currentQuestion.questionTamil;
+
+            optionAText.text = currentQuestion.optionATamil;
+            optionBText.text = currentQuestion.optionBTamil;
+            optionCText.text = currentQuestion.optionCTamil;
+            optionDText.text = currentQuestion.optionDTamil;
+        }
 
         scoreText.text = "Score: " + score;
 
         EnableButtons();
     }
 
+    public void ChangeLanguage(int selectedLanguage)
+    {
+        if (selectedLanguage == 0)
+        {
+            currentLanguage = QuizLanguage.English;
+        }
+        else if (selectedLanguage == 1)
+        {
+            currentLanguage = QuizLanguage.Tamil;
+        }
+
+        LoadQuestion();
+    }
+
     public void SelectAnswer(int selectedAnswer)
     {
-        Debug.Log("BUTTON CLICKED: " + selectedAnswer);
-        
         if (answerSelected)
             return;
 
