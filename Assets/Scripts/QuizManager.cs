@@ -33,6 +33,11 @@ public class QuizManager : MonoBehaviour
     public GameObject feedbackPanel;
     public TMP_Text feedbackText;
 
+    [Header("Final Score UI")]
+    public GameObject finalScorePanel;
+    public TMP_Text finalScoreText;
+    public Button playAgainButton;
+
     [Header("Answer Buttons")]
     public Button optionAButton;
     public Button optionBButton;
@@ -48,25 +53,23 @@ public class QuizManager : MonoBehaviour
 
     void Start()
     {
-        // Keep feedback hidden when the quiz starts
         feedbackPanel.SetActive(false);
+        finalScorePanel.SetActive(false);
 
-        // Connect button clicks
         optionAButton.onClick.AddListener(() => SelectAnswer(0));
         optionBButton.onClick.AddListener(() => SelectAnswer(1));
         optionCButton.onClick.AddListener(() => SelectAnswer(2));
         optionDButton.onClick.AddListener(() => SelectAnswer(3));
 
-        // Load first question
+        playAgainButton.onClick.AddListener(RestartQuiz);
+
         LoadQuestion();
     }
 
     void LoadQuestion()
     {
-        // Hide feedback when loading a new question
         feedbackPanel.SetActive(false);
 
-        // Check if quiz is finished
         if (currentQuestionIndex >= questions.Count)
         {
             FinishQuiz();
@@ -77,26 +80,22 @@ public class QuizManager : MonoBehaviour
 
         QuestionData currentQuestion = questions[currentQuestionIndex];
 
-        // Display question
         questionText.text = currentQuestion.question;
 
-        // Display options
         optionAText.text = currentQuestion.optionA;
         optionBText.text = currentQuestion.optionB;
         optionCText.text = currentQuestion.optionC;
         optionDText.text = currentQuestion.optionD;
 
-        // Display score
         scoreText.text = "Score: " + score;
 
-        // Enable answer buttons
         EnableButtons();
     }
 
-    void SelectAnswer(int selectedAnswer)
+    public void SelectAnswer(int selectedAnswer)
     {
-        // Prevent selecting another answer
-        // while feedback is being displayed
+        Debug.Log("BUTTON CLICKED: " + selectedAnswer);
+        
         if (answerSelected)
             return;
 
@@ -104,38 +103,32 @@ public class QuizManager : MonoBehaviour
 
         QuestionData currentQuestion = questions[currentQuestionIndex];
 
-        // Check answer
         if (selectedAnswer == currentQuestion.correctAnswer)
         {
             score++;
 
-            feedbackText.text = "✓ CORRECT! +1 POINT";
+            feedbackText.text = "CORRECT! +1 POINT";
 
             Debug.Log("Correct Answer!");
         }
         else
         {
-            feedbackText.text = "✕ WRONG!";
+            feedbackText.text = "WRONG!";
 
             Debug.Log("Wrong Answer!");
         }
 
-        // Update score
         scoreText.text = "Score: " + score;
 
-        // Show feedback
         feedbackPanel.SetActive(true);
 
-        // Disable buttons while feedback is displayed
         DisableButtons();
 
-        // Move to next question after delay
         StartCoroutine(NextQuestionAfterDelay());
     }
 
     IEnumerator NextQuestionAfterDelay()
     {
-        // Show feedback for 1.5 seconds
         yield return new WaitForSeconds(1.5f);
 
         currentQuestionIndex++;
@@ -161,24 +154,43 @@ public class QuizManager : MonoBehaviour
 
     void FinishQuiz()
     {
-        // Hide feedback panel
         feedbackPanel.SetActive(false);
 
-        // Display final message
-        questionText.text = "QUIZ COMPLETE!";
+        questionText.gameObject.SetActive(false);
 
-        // Clear option texts
-        optionAText.text = "";
-        optionBText.text = "";
-        optionCText.text = "";
-        optionDText.text = "";
+        optionAButton.gameObject.SetActive(false);
+        optionBButton.gameObject.SetActive(false);
+        optionCButton.gameObject.SetActive(false);
+        optionDButton.gameObject.SetActive(false);
 
-        // Disable buttons
-        DisableButtons();
+        scoreText.gameObject.SetActive(false);
 
-        // Display final score
-        scoreText.text = "Final Score: " + score + " / " + questions.Count;
+        finalScoreText.text =
+            "QUIZ COMPLETE!\n\nYOUR SCORE\n\n" +
+            score + " / " + questions.Count;
+
+        finalScorePanel.SetActive(true);
 
         Debug.Log("Quiz Finished! Final Score: " + score);
+    }
+
+    void RestartQuiz()
+    {
+        currentQuestionIndex = 0;
+        score = 0;
+        answerSelected = false;
+
+        finalScorePanel.SetActive(false);
+
+        questionText.gameObject.SetActive(true);
+
+        optionAButton.gameObject.SetActive(true);
+        optionBButton.gameObject.SetActive(true);
+        optionCButton.gameObject.SetActive(true);
+        optionDButton.gameObject.SetActive(true);
+
+        scoreText.gameObject.SetActive(true);
+
+        LoadQuestion();
     }
 }
