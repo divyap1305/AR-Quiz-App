@@ -220,6 +220,276 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &405274100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 405274101}
+  - component: {fileID: 405274103}
+  - component: {fileID: 405274102}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &405274101
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405274100}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 902819335}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &405274102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405274100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u0BA4\u0BAE\u0BBF\u0BB4\u0BCD"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &405274103
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405274100}
+  m_CullTransparentMesh: 1
+--- !u!1 &519766018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519766019}
+  - component: {fileID: 519766022}
+  - component: {fileID: 519766021}
+  - component: {fileID: 519766020}
+  m_Layer: 5
+  m_Name: EnglishButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &519766019
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519766018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1284597319}
+  m_Father: {fileID: 7843755881082731200}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -150, y: 350}
+  m_SizeDelta: {x: 200, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &519766020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519766018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 519766021}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1666034270}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: ChangeLanguage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &519766021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519766018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &519766022
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519766018}
+  m_CullTransparentMesh: 1
 --- !u!1 &567486521
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,6 +880,276 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &902819334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902819335}
+  - component: {fileID: 902819338}
+  - component: {fileID: 902819337}
+  - component: {fileID: 902819336}
+  m_Layer: 5
+  m_Name: TamilButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &902819335
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902819334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 405274101}
+  m_Father: {fileID: 7843755881082731200}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 150, y: 350}
+  m_SizeDelta: {x: 200, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &902819336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902819334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 902819337}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1666034270}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: ChangeLanguage
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &902819337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902819334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &902819338
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902819334}
+  m_CullTransparentMesh: 1
+--- !u!1 &1284597318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1284597319}
+  - component: {fileID: 1284597321}
+  - component: {fileID: 1284597320}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1284597319
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284597318}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 519766019}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1284597320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284597318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: English
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1284597321
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284597318}
+  m_CullTransparentMesh: 1
 --- !u!1 &1332747083
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,6 +1342,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4270399495868536271, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
   m_PrefabInstance: {fileID: 7843755881082731199}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1666034270 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+  m_PrefabInstance: {fileID: 7843755881082731199}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666034268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be89fa05b5ef8f4f85d1046cd94ef8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuizManager
 --- !u!1 &1903346261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,11 +1613,238 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 878521106}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[0].optionATamil
+      value: "\u0B86\u0B95\u0BCD\u0BAE\u0BC6\u0BA9\u0BCD\u0B9F\u0B9F\u0BCD \u0BB0\u0BBF\u0BAF\u0BBE\u0BB2\u0BBF\u0B9F\u0BCD\u0B9F\u0BBF"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[0].optionBTamil
+      value: "\u0B9A\u0BC6\u0BAF\u0BB1\u0BCD\u0B95\u0BC8 \u0BAF\u0BA4\u0BBE\u0BB0\u0BCD\u0BA4\u0BCD\u0BA4\u0BAE\u0BCD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[0].optionCTamil
+      value: "\u0BAE\u0BC7\u0BAE\u0BCD\u0BAA\u0B9F\u0BCD\u0B9F \u0BAF\u0BA4\u0BBE\u0BB0\u0BCD\u0BA4\u0BCD\u0BA4\u0BAE\u0BCD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[0].optionDTamil
+      value: "\u0BA4\u0BBE\u0BA9\u0BBF\u0BAF\u0B99\u0BCD\u0B95\u0BBF \u0BAF\u0BA4\u0BBE\u0BB0\u0BCD\u0BA4\u0BCD\u0BA4\u0BAE\u0BCD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[1].optionATamil
+      value: ARCore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[1].optionBTamil
+      value: ARKit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[1].optionCTamil
+      value: Vuforia
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[1].optionDTamil
+      value: Unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[2].optionATamil
+      value: "\u0BAE\u0BC6\u0BAF\u0BCD\u0BA8\u0BBF\u0B95\u0BB0\u0BCD \u0BAF\u0BA4\u0BBE\u0BB0\u0BCD\u0BA4\u0BCD\u0BA4\u0BAE\u0BCD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[2].optionBTamil
+      value: "\u0B95\u0BBE\u0B9F\u0BCD\u0B9A\u0BBF \u0BAF\u0BA4\u0BBE\u0BB0\u0BCD\u0BA4\u0BCD\u0BA4\u0BAE\u0BCD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[2].optionCTamil
+      value: "\u0BAE\u0BC6\u0BAF\u0BCD\u0BA8\u0BBF\u0B95\u0BB0\u0BCD \u0BAA\u0BA4\u0BBF\u0BB2\u0BCD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[2].optionDTamil
+      value: "\u0B95\u0BBE\u0BA3\u0BCA\u0BB3\u0BBF \u0BAF\u0BA4\u0BBE\u0BB0\u0BCD\u0BA4\u0BCD\u0BA4\u0BAE\u0BCD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[3].optionATamil
+      value: "\u0BA4\u0BBF\u0BB1\u0BA9\u0BCD\u0BAA\u0BC7\u0B9A\u0BBF"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[3].optionBTamil
+      value: "\u0BA4\u0BCA\u0BB2\u0BC8\u0B95\u0BCD\u0B95\u0BBE\u0B9F\u0BCD\u0B9A\u0BBF"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[3].optionCTamil
+      value: "\u0B85\u0B9A\u0BCD\u0B9A\u0BC1\u0BAA\u0BCD\u0BAA\u0BCA\u0BB1\u0BBF"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[3].optionDTamil
+      value: "\u0B92\u0BB2\u0BBF\u0BAA\u0BC6\u0BB0\u0BC1\u0B95\u0BCD\u0B95\u0BBF"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[4].optionATamil
+      value: "\u0BAE\u0BBF\u0BA9\u0BCD\u0BA9\u0BA3\u0BC1\u0BA4\u0BCD \u0BA4\u0B95\u0BB5\u0BB2\u0BCD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[4].optionBTamil
+      value: "\u0B87\u0BAF\u0BB1\u0BCD\u0BAA\u0BBF\u0BAF\u0BB2\u0BCD \u0BAA\u0BCA\u0BB0\u0BC1\u0B9F\u0BCD\u0B95\u0BB3\u0BCD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[4].optionCTamil
+      value: "\u0BA8\u0BBF\u0B9C\u0B95\u0BCD \u0B95\u0B9F\u0BCD\u0B9F\u0BBF\u0B9F\u0B99\u0BCD\u0B95\u0BB3\u0BCD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[4].optionDTamil
+      value: "\u0B87\u0BAF\u0BB1\u0BCD\u0B95\u0BC8\u0BAA\u0BCD \u0BAA\u0BCA\u0BB0\u0BC1\u0B9F\u0BCD\u0B95\u0BB3\u0BCD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[0].questionTamil
+      value: "AR \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BA9\u0BCD \u0BB5\u0BBF\u0BB0\u0BBF\u0BB5\u0BBE\u0B95\u0BCD\u0B95\u0BAE\u0BCD
+        \u0B8E\u0BA9\u0BCD\u0BA9?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[1].questionTamil
+      value: "Android AR-\u0B95\u0BCD\u0B95\u0BC1 \u0BAA\u0BCA\u0BA4\u0BC1\u0BB5\u0BBE\u0B95
+        \u0BAA\u0BAF\u0BA9\u0BCD\u0BAA\u0B9F\u0BC1\u0BA4\u0BCD\u0BA4\u0BAA\u0BCD\u0BAA\u0B9F\u0BC1\u0BAE\u0BCD
+        \u0BA4\u0BCA\u0BB4\u0BBF\u0BB2\u0BCD\u0BA8\u0BC1\u0B9F\u0BCD\u0BAA\u0BAE\u0BCD
+        \u0B8E\u0BA4\u0BC1?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[2].correctAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[2].questionTamil
+      value: "VR \u0B8E\u0BA9\u0BCD\u0BAA\u0BA4\u0BA9\u0BCD \u0BB5\u0BBF\u0BB0\u0BBF\u0BB5\u0BBE\u0B95\u0BCD\u0B95\u0BAE\u0BCD
+        \u0B8E\u0BA9\u0BCD\u0BA9?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[3].correctAnswer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[3].questionTamil
+      value: "\u0BA8\u0BAE\u0BA4\u0BC1 AR \u0B9A\u0BC6\u0BAF\u0BB2\u0BBF\u0BAF\u0BC8\u0BAA\u0BCD
+        \u0BAA\u0BAF\u0BA9\u0BCD\u0BAA\u0B9F\u0BC1\u0BA4\u0BCD\u0BA4 \u0B8E\u0BA8\u0BCD\u0BA4
+        \u0B9A\u0BBE\u0BA4\u0BA9\u0BAE\u0BCD \u0BA4\u0BC7\u0BB5\u0BC8?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[4].questionTamil
+      value: "AR \u0BA8\u0BBF\u0B9C \u0B89\u0BB2\u0B95\u0BA4\u0BCD\u0BA4\u0BC1\u0B9F\u0BA9\u0BCD
+        \u0B8E\u0BA4\u0BC8\u0B9A\u0BCD \u0B9A\u0BC7\u0BB0\u0BCD\u0B95\u0BCD\u0B95\u0BBF\u0BB1\u0BA4\u0BC1?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[0].optionAEnglish
+      value: Augmented Reality
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[0].optionBEnglish
+      value: Artificial Reality
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[0].optionCEnglish
+      value: Advanced Reality
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[0].optionDEnglish
+      value: Automated Reality
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[1].optionAEnglish
+      value: ARCore
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[1].optionBEnglish
+      value: ARKit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[1].optionCEnglish
+      value: Vuforia
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[1].optionDEnglish
+      value: Unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[2].optionAEnglish
+      value: Virtual Reality
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[2].optionBEnglish
+      value: Visual Reality
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[2].optionCEnglish
+      value: Virtual Response
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[2].optionDEnglish
+      value: Video Reality
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[3].optionAEnglish
+      value: Smartphone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[3].optionBEnglish
+      value: Television
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[3].optionCEnglish
+      value: Printer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[3].optionDEnglish
+      value: Speaker
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[4].optionAEnglish
+      value: Digital Information
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[4].optionBEnglish
+      value: Physical Objects
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[4].optionCEnglish
+      value: Real Buildings
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[4].optionDEnglish
+      value: Natural Objects
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[0].questionEnglish
+      value: What does AR stand for?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[1].questionEnglish
+      value: Which technology is commonly used for Android AR?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[2].questionEnglish
+      value: What does VR stand for?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[3].questionEnglish
+      value: Which device is required for our AR app?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599874352323814328, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      propertyPath: questions.Array.data[4].questionEnglish
+      value: What does AR add to the real world?
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6195979360688231665, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 519766019}
+    - targetCorrespondingSourceObject: {fileID: 6195979360688231665, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 902819335}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+--- !u!224 &7843755881082731200 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6195979360688231665, guid: 09e7bb05d9d98c84b927695f39b1ee7f, type: 3}
+  m_PrefabInstance: {fileID: 7843755881082731199}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
