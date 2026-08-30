@@ -92,8 +92,10 @@ public class QuizManager : MonoBehaviour
         EnableButtons();
     }
 
-    void SelectAnswer(int selectedAnswer)
+    public void SelectAnswer(int selectedAnswer)
     {
+        Debug.Log("BUTTON CLICKED: " + selectedAnswer);
+        
         if (answerSelected)
             return;
 

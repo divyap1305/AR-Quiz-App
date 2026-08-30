@@ -14,8 +14,7 @@ public class FaceCamera : MonoBehaviour
         if (arCamera == null)
             return;
 
-        Vector3 direction = arCamera.transform.position - transform.position;
-
+        Vector3 direction = transform.position - arCamera.transform.position;
         direction.y = 0f;
 
         if (direction.sqrMagnitude > 0.001f)
